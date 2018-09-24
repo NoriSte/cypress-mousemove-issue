@@ -1,0 +1,7 @@
+{
+  "name": "cypress-mousemove-issue",
+  "version": "1.0.0",
+  "repository": "https://github.com/NoriSte/cypress-mousemove-issue.git",
+  "author": "Stefano Magni <nori.ste.magni@gmail.com>",
+  "license": "MIT"
+}
