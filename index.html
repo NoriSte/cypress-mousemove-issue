@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script>
+            addEventListener('mousemove', () => document.getElementById('button').setAttribute('disabled', true));
+        </script>
+        <style>
+            body {
+                min-width: 100vw;
+                min-width: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #button {
+                display: inline;
+            }
+        </style>
+    </head>
+    <body>
+        <button tabindex="-1" id="button">Click me with the mouse (theorically you can't)</button>
+    </body>
+</html>
